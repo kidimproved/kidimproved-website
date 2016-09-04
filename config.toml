@@ -1,4 +1,4 @@
-baseurl = "http://kidimproved.github.io/"
+baseurl = "http://kidimproved.github.io/public/"
 languageCode = "en-us"
 title = "Kid ImprovEd"
 canonifyurls = true
