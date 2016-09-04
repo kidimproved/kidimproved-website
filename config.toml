@@ -57,24 +57,24 @@ theme = "hugo-creative-theme"
     headline = "At your service"
 
         [[params.services.list]]
-            icon = "fa-diamond"
-            title = "Sturdy Templates"
-            description = "Our templates are updated regularly so they don't break."
+            image = ""
+            title = "Dawn Needelman"
+            description = "Board Member | Secretary"
 
         [[params.services.list]]
       icon = "fa-paper-plane"
-      title = "Ready to Ship"
-      description = "You can use this theme as is, or you can make changes!"
+      title = "Shawn Kresal"
+      description = "Board Member | Vice President"
 
     [[params.services.list]]
             icon = "fa-newspaper-o"
-            title = "Up to Date"
-            description = "We update dependencies to keep things fresh."
+            title = "Jay Huston"
+            description = "Board Member | Curriculum Development"
 
         [[params.services.list]]
             icon = "fa-heart"
-            title = "Made with Love"
-            description = "You have to make your websites with love these days!"
+            title = "Chris Moradi"
+            description = "Board Member | Treasurer"
 
 
     # Portfolio modals
