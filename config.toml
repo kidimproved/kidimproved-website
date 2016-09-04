@@ -1,6 +1,7 @@
 baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "en-us"
 title = "Kid ImprovEd"
+canonifyurls = true
 
 [params]
 
