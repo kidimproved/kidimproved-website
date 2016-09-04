@@ -1,0 +1,100 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Kid ImprovEd"
+theme = "hugo-creative-theme"
+
+[params]
+
+  # You can use Markdown syntax for urls [text](//url.to/source) for
+  # most longer texts.
+
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # All projects of the portfolio are defined in their own files.
+  # You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+  # folder into the 'data' directory at the root of this Hugo site.
+  # For more informtion take a look at the README.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "Kid ImprovEd"
+  description = "A non-profit dedicated to teaching improv skills to K-12 students."
+
+  # The path must be relative to the static folder
+  favicon = "favicon.ico"
+
+
+  # Navigation
+  [params.navigation]
+    brand = "Kid ImprovEd"
+
+    [params.navigation.links]
+      about     = "About"
+      services  = "Services"
+      portfolio = "Portfolio"
+      contact   = "Contact"
+
+
+  # Hero section
+  [params.hero]
+    # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+    slogan     = "Your awesome slogan"
+    subtitle   = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil voluptatem fugiat eos eveniet alias in veniam?"
+    buttonText = "Find out more"
+
+
+  # About section
+  [params.about]
+    headline    = "We've got what you need!"
+    description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+    buttonText  = "Get started!"
+
+
+  # Service section
+  [params.services]
+    headline = "At your service"
+
+        [[params.services.list]]
+            image = ""
+            title = "Dawn Needelman"
+            description = "Board Member | Secretary"
+
+        [[params.services.list]]
+      icon = "fa-paper-plane"
+      title = "Shawn Kresal"
+      description = "Board Member | Vice President"
+
+    [[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Jay Huston"
+            description = "Board Member | Curriculum Development"
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Chris Moradi"
+            description = "Board Member | Treasurer"
+
+
+    # Portfolio modals
+  [params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+  [params.aside]
+    headline = "Get the Creative Theme for Hugo"
+
+    [params.aside.button]
+      text = "Download now"
+      link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+  # Contact section
+  [params.contact]
+    headline = "Let's Get In Touch!"
+    description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+    phone = "123-456-6789"
+    email = "feedback@startbootstrap.com"
