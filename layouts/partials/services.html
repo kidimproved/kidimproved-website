@@ -10,10 +10,22 @@
     </div>
     <div class="container">
         <div class="row">
+            <div class="col-lg-3 col-md-6 col-lg-offset-3 col-sm-12 text-center" >
+                <div >
+                    <img class="img-rounded img-responsive headshot"  src="/img/headshots/jody-headshot-300x300.jpg"></img>
+                    <h3>Jody Frandle</h3>
+                    <p class="text-muted">CEO | Founder | President of the Board</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12" >
+              <p class="text-muted">{{ with .Site.Params.services.bio }}{{. | markdownify }}{{ end }}</p>
+            </div>
+        </div>
+        <div class="row">
             {{ range .Site.Params.services.list }}
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <img src="/img/{{ .image }}"></img>
+            <div class="col-lg-3 col-md-6 text-center" >
+                <div >
+                    <img class="img-rounded img-responsive headshot" src="/img/headshots/{{ .image }}"></img>
                     <h3>{{ .title }}</h3>
                     <p class="text-muted">{{ .description }}</p>
                 </div>
